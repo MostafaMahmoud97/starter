@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4c3294-a5ad-43d7-a21c-20ee3620e238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/mail_user.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/starter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +141,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
       <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mMGffzTLHrXPp0xLw1WYFsOExO" />
@@ -147,17 +154,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/emails" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/Offers" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\starter\resources\views\Offers" />
+      <recent name="C:\xampp\htdocs\starter\app\Http\Controllers\Offers" />
       <recent name="C:\xampp\htdocs\starter\resources\views\emails" />
       <recent name="C:\xampp\htdocs\starter\resources\views\includes" />
       <recent name="C:\xampp\htdocs\starter\resources\views" />
-      <recent name="C:\xampp\htdocs\starter\resources\views\layouts" />
-      <recent name="C:\xampp\htdocs\starter\resources\lang\en" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\starter\app\Http\Controllers\Offers" />
+      <recent name="C:\xampp\htdocs\starter\app\Http\Controllers" />
+      <recent name="C:\xampp\htdocs\starter\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -182,7 +194,9 @@
       <workItem from="1609810016371" duration="3440000" />
       <workItem from="1609818192061" duration="5539000" />
       <workItem from="1609829093586" duration="1865000" />
-      <workItem from="1609918563614" duration="1516000" />
+      <workItem from="1609918563614" duration="2189000" />
+      <workItem from="1609983321801" duration="6159000" />
+      <workItem from="1610075855018" duration="2403000" />
     </task>
     <servers />
   </component>

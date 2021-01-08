@@ -14,6 +14,13 @@ return [
     */
 
     'hello guys' => 'اهلا بكم' ,
-    'welcome' => 'اهلا'
+    'welcome' => 'اهلا',
+    'Offer Name is Required' =>"يجب ادخال الاسم",
+    'Offer Length must be 100 Char' => 'يجب الا يزيد الاسم عن 100 حرف',
+    'Offer Name must be Unique' => 'هذا الاسم موجود',
+    'Offer Price is Required' => 'يجب ادخال السعر',
+    'Offer Price must be Numeric' => 'يجب ان يكون السعر رقم',
+    'Offer Detail is Required' => 'يجب ادخال التفاصيل',
+    'Language' => 'اللغة'
 
 ];

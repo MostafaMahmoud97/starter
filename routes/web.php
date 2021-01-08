@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,6 +45,18 @@ Route::get('/home', 'HomeController@index')->name('home')->middleware('verified'
 Route::get('/redirect/{service}',"SocialController@redirect");
 
 Route::get('/callback/{service}','SocialController@callback');
+
+
+Route::group(['prefix'=> LaravelLocalization::setLocale(), 'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]],function (){
+    Route::group(['namespace'=>'Offers'],function(){
+        Route::get('/Offer','CrudController@getOffers');
+        Route::get('/create','CrudController@create');
+        Route::Post('/store','CrudController@store')->name('Offer.store');
+    });
+
+});
+
+
 
 
 /*
